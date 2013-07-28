@@ -6,6 +6,7 @@
 class fantastical {
   package { 'Fantastical':
     provider => 'compressed_app',
-    source   => 'http://flexibits.com/fantastical/download'
+    source   => 'http://flexibits.com/fantastical/download',
+    flavor   => 'zip'
   }
 }
